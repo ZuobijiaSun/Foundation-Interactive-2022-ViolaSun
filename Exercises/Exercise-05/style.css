@@ -1,0 +1,118 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  font-family:manrope;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(-45deg, #ff0080, #ff8000);
+}
+
+
+.date-of-today marquee {
+  position: absolute;
+  color: rgba(255,255,255, .4);
+  font-size: 7em;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+ .calendar {
+  max-width: 550px;
+  width: 90%;
+  margin: auto;
+}
+
+
+.header {
+  background: rgba(0, 0, 0, .3);
+  border-radius: 10px;
+}
+
+.month {
+  text-align: center;
+  line-height: 2.5;
+  color: #fff;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.month:before, .month:after {
+  width: calc(100% / 7);
+  text-align: center;
+  cursor: pointer;
+}
+
+.month:before {
+  content: "< ";
+}
+
+.month:after {
+  content: " >";
+}
+
+
+.week {
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.day {
+  color: rgba(255, 255, 255, .5);
+  font-size: 0.9em;
+}
+
+.calendarbox {
+  width: calc(100% / 7);
+  text-align: center;
+  margin: 5px;
+  line-height: 2;
+}
+
+.week-today {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+
+
+
+.dates {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+}
+
+.date {
+  background: rgba(255, 255, 255, .2);
+  color: #fff;
+  border-radius: 5px;
+  width:calc((100% - 5px * 6)/7);
+  text-align: center;
+  margin-bottom: 5px; 
+  line-height: 2.4;
+}
+
+.date-today {
+  background: rgba(0,0,0, .0);
+  outline: 1px dashed rgba(255, 255, 255, .9);
+  color: #fff;
+}
+
+.date:hover {
+  background: rgba(255, 255, 255, .5);
+  color: #fff;
+  transition:.6s;
+}
+
+.datebox {
+  width:calc((100% - 5px * 6)/7);
+  text-align: center;
+  margin-bottom: 5px;
+  line-height: 2.5;
+}
+
+

@@ -1,0 +1,2024 @@
+body{
+  transform-origin: 50% 0%;
+  transform:scale(0.6);
+  font-family: Manrope;
+  height: 720px;
+}
+
+h3 {
+  font-size:50px;
+  font-weight: 500;
+  text-align:center;
+  margin-bottom:0px;
+}
+
+p {
+	margin-top:10px;
+  margin-bottom:50px;
+  font-size:28px;
+  font-weight: 500;
+  text-align:center;
+  color:#000;
+}
+
+
+.animation{
+  animation-name: flo ;
+  animation-duration: 4s ;
+  animation-iteration-count: infinite ;
+ }
+
+
+.alphabet {
+  width: 100%;
+	display: inline-flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  position: relative;
+  gap: 20px;
+}
+
+.alphabet div{
+  color:#fff;
+  padding:10px;
+  border-radius:8px;
+	min-width:50px;
+	font-size:25px; 
+	font-weight: normal;
+	text-transform: uppercase;
+	display:inline-block;
+	text-align:center;
+	cursor:pointer;
+	box-shadow: 0 3px 7px rgb(0 0 0 / 0.1);
+
+}
+
+
+#magenta{
+	background-color:#ff6b84;
+}
+
+#blue{
+	background-color:#75affa;
+}
+
+#green{
+	background-color:#59ebb0;
+}
+
+#yellow{
+	background-color:#ffd666;
+}
+
+
+#magenta:hover{
+	background-color:#ff1457;
+	color: #fff;
+	transition:.6s;
+}
+
+#blue:hover{
+	background-color:#1d61f5;
+	color: #fff;
+	transition:.6s;
+}
+
+#green:hover{
+	background-color:#00d16c;
+	color: #fff;
+	transition:.6s;
+}
+
+#yellow:hover{
+	background-color:#ffb300;
+	color: #fff;
+}
+
+
+#magenta:focus{
+	background-color:#ff1457;
+	color: #fff;
+}
+
+#blue:focus {
+	background-color:#1d61f5;
+	color: #fff;
+}
+
+#green:focus{
+	background-color:#00d16c;
+	color: #fff;
+}
+
+#yellow:focus{
+	background-color:#ffb300;
+	color: #fff;
+}
+
+
+
+#geometrics-fonts {
+	margin:50px auto;
+	width:600px;
+	height:600px;
+}
+
+#geometrics-fonts div {
+	float:left;
+	width:200px;
+	height:200px;
+	position:relative;
+	transition:all 1s;
+	overflow:hidden;
+}
+
+
+/* A */
+#geometrics-fonts.letter_a div:nth-child(1) {
+	background-color:#00f57e; /* green */
+}
+#geometrics-fonts.letter_a div:nth-child(1)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+ 
+}
+
+#geometrics-fonts.letter_a div:nth-child(2),
+#geometrics-fonts.letter_a div:nth-child(7) {
+	background-color:#ff1259; /* magenta */
+ 
+}
+#geometrics-fonts.letter_a div:nth-child(5) {
+	border-radius:50%;
+	background-color:#3374ff; /* blue */
+ 
+}
+#geometrics-fonts.letter_a div:nth-child(3) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_a div:nth-child(3)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_a div:nth-child(6) {
+	background-color:#ffd54a; /* yellow */
+ 
+}
+#geometrics-fonts.letter_a div:nth-child(6)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_a div:nth-child(4) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_a div:nth-child(4)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_a div:nth-child(9) {
+	background-color:#ff1259;
+}
+
+/* B */
+#geometrics-fonts.letter_b {
+	margin:50px auto;
+	width:600px;
+}
+#geometrics-fonts.letter_b div:nth-child(1) {
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_b div:nth-child(2),
+#geometrics-fonts.letter_b div:nth-child(5),
+#geometrics-fonts.letter_b div:nth-child(8) {
+	background-color:#ff1259;
+ 
+}
+#geometrics-fonts.letter_b div:nth-child(3) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_b div:nth-child(3)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+	 
+}
+#geometrics-fonts.letter_b div:nth-child(6) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_b div:nth-child(6)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_b div:nth-child(9) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_b div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+/* C */
+#geometrics-fonts.letter_c div:nth-child(1) {
+	background-color:#ffd54a;
+}
+#geometrics-fonts.letter_c div:nth-child(1)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+ 
+}
+
+#geometrics-fonts.letter_c div:nth-child(2),
+#geometrics-fonts.letter_c div:nth-child(4),
+#geometrics-fonts.letter_c div:nth-child(8) {
+	background-color:#ff1259;
+ 
+}
+
+#geometrics-fonts.letter_c div:nth-child(3) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_c div:nth-child(3)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_c div:nth-child(7) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_c div:nth-child(7)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_c div:nth-child(9) {
+	background-color:#ffd54a;
+	 
+}
+#geometrics-fonts.letter_c div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+/* D */
+#geometrics-fonts.letter_d div:nth-child(1),
+#geometrics-fonts.letter_d div:nth-child(4),
+#geometrics-fonts.letter_d div:nth-child(7) {
+	background-color:#ff1259;
+	 
+}
+#geometrics-fonts.letter_d div:nth-child(2) {
+	background-color:#ffd54a;
+	}
+#geometrics-fonts.letter_d div:nth-child(2)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+	  
+}
+#geometrics-fonts.letter_d div:nth-child(3) {
+	background-color:#00f57e;
+	  
+}
+#geometrics-fonts.letter_d div:nth-child(3)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_d div:nth-child(6) {
+	background-color:#ff1259;
+	 
+}
+#geometrics-fonts.letter_d div:nth-child(8) {
+	background-color:#00f57e;
+	  
+}
+#geometrics-fonts.letter_d div:nth-child(8)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_d div:nth-child(9) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_d div:nth-child(9)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+/* E */
+#geometrics-fonts.letter_e div:nth-child(2),
+#geometrics-fonts.letter_e div:nth-child(5),
+#geometrics-fonts.letter_e div:nth-child(8) {
+	background-color:#ff1259;
+ 
+}
+#geometrics-fonts.letter_e div:nth-child(3) {
+	background-color:#00f57e;
+	  
+}
+#geometrics-fonts.letter_e div:nth-child(3)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_e div:nth-child(6) {
+	border-radius:50%;
+	background-color:#3374ff;
+	 
+}
+
+#geometrics-fonts.letter_e div:nth-child(9) {
+	background-color:#ffd54a;
+	 
+}
+#geometrics-fonts.letter_e div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+
+/* F */
+#geometrics-fonts.letter_f div:nth-child(2),
+#geometrics-fonts.letter_f div:nth-child(5),
+#geometrics-fonts.letter_f div:nth-child(8) {
+	background-color:#ff1259;
+	  
+}
+#geometrics-fonts.letter_f div:nth-child(3) {
+	background-color:#00f57e;
+	  
+}
+#geometrics-fonts.letter_f div:nth-child(3)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_f div:nth-child(6) {
+	border-radius:50%;
+	background-color:#3374ff;
+	  
+}
+
+/* G */
+#geometrics-fonts.letter_g div:nth-child(1),
+#geometrics-fonts.letter_g div:nth-child(4),
+#geometrics-fonts.letter_g div:nth-child(7) {
+	background-color:#ff1259;
+	  
+}
+#geometrics-fonts.letter_g div:nth-child(2) {
+	background-color:#00f57e;
+	  
+}
+#geometrics-fonts.letter_g div:nth-child(2)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_g div:nth-child(6) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_g div:nth-child(6)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_g div:nth-child(8) {
+	border-radius:50%;
+	background-color:#3374ff;
+ 
+}
+#geometrics-fonts.letter_g div:nth-child(9) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_g div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+/* H */
+#geometrics-fonts.letter_h div:nth-child(1),
+#geometrics-fonts.letter_h div:nth-child(4),
+#geometrics-fonts.letter_h div:nth-child(7),
+#geometrics-fonts.letter_h div:nth-child(3),
+#geometrics-fonts.letter_h div:nth-child(6),
+#geometrics-fonts.letter_h div:nth-child(9) {
+	background-color:#ff1259;
+	  
+}
+#geometrics-fonts.letter_h div:nth-child(5) {
+	border-radius:50%;
+	background-color:#3374ff;
+	 
+}
+
+/* I */
+#geometrics-fonts.letter_i div:nth-child(2) {
+	border-radius:50%;
+	background-color:#3374ff;
+ 
+}
+#geometrics-fonts.letter_i div:nth-child(5),
+#geometrics-fonts.letter_i div:nth-child(8) {
+	background-color:#ff1259;
+	 
+}
+
+/* J */
+#geometrics-fonts.letter_j div:nth-child(3),
+#geometrics-fonts.letter_j div:nth-child(6) {
+	background-color:#ff1259;
+	 
+}
+#geometrics-fonts.letter_j div:nth-child(8) {
+	border-radius:50%;
+	background-color:#3374ff;
+	 
+}
+#geometrics-fonts.letter_j div:nth-child(7) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_j div:nth-child(7)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_j div:nth-child(9) {
+	background-color:#00f57e;
+	  
+}
+#geometrics-fonts.letter_j div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+/* K */
+#geometrics-fonts.letter_k div:nth-child(1),
+#geometrics-fonts.letter_k div:nth-child(4),
+#geometrics-fonts.letter_k div:nth-child(7) {
+	background-color:#ff1259;
+	 
+}
+
+#geometrics-fonts.letter_k div:nth-child(3) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_k div:nth-child(3)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_k div:nth-child(5) {
+	border-radius:50%;
+	background-color:#3374ff;
+	 
+}
+#geometrics-fonts.letter_k div:nth-child(9) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_k div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+
+/* L */
+#geometrics-fonts.letter_l div:nth-child(1),
+#geometrics-fonts.letter_l div:nth-child(4),
+#geometrics-fonts.letter_l div:nth-child(7) {
+	background-color:#ff1259;
+	 
+}
+
+#geometrics-fonts.letter_l div:nth-child(8) {
+	border-radius:50%;
+	background-color:#3374ff;
+	 
+}
+#geometrics-fonts.letter_l div:nth-child(9) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_l div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+
+/* M */
+#geometrics-fonts.letter_m div:nth-child(1) {
+	background-color:#00f57e;
+	  
+}
+#geometrics-fonts.letter_m div:nth-child(1)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_m div:nth-child(3) {
+	background-color:#ffd54a;
+	   
+}
+#geometrics-fonts.letter_m div:nth-child(3)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_m div:nth-child(4),
+#geometrics-fonts.letter_m div:nth-child(7),
+#geometrics-fonts.letter_m div:nth-child(6),
+#geometrics-fonts.letter_m div:nth-child(9) {
+	background-color:#ff1259;
+	 
+}
+
+#geometrics-fonts.letter_m div:nth-child(5) {
+	border-radius:50%;
+	background-color:#3374ff;
+	 
+}
+
+/* N */
+#geometrics-fonts.letter_n div:nth-child(1),
+#geometrics-fonts.letter_n div:nth-child(4),
+#geometrics-fonts.letter_n div:nth-child(7),
+#geometrics-fonts.letter_n div:nth-child(3),
+#geometrics-fonts.letter_n div:nth-child(6),
+#geometrics-fonts.letter_n div:nth-child(9) {
+	background-color:#ff1259;
+	 
+}
+#geometrics-fonts.letter_n div:nth-child(2) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_n div:nth-child(2)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_n div:nth-child(8) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_n div:nth-child(8)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+#geometrics-fonts.letter_n div:nth-child(5) {
+	border-radius:50%;
+	background-color:#3374ff;
+	 
+}
+/* O */
+#geometrics-fonts.letter_o div:nth-child(1) {
+	background-color:#ffd54a;
+	 
+}
+#geometrics-fonts.letter_o div:nth-child(1)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+#geometrics-fonts.letter_o div:nth-child(2),
+#geometrics-fonts.letter_o div:nth-child(4),
+#geometrics-fonts.letter_o div:nth-child(6),
+#geometrics-fonts.letter_o div:nth-child(8) {
+	background-color:#ff1259;
+ 
+}
+#geometrics-fonts.letter_o div:nth-child(3) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_o div:nth-child(3)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_o div:nth-child(7) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_o div:nth-child(7)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_o div:nth-child(9) {
+	background-color:#ffd54a;
+	  
+}
+#geometrics-fonts.letter_o div:nth-child(9)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+
+/* P */
+#geometrics-fonts.letter_p div:nth-child(1) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_p div:nth-child(1),
+#geometrics-fonts.letter_p div:nth-child(4),
+#geometrics-fonts.letter_p div:nth-child(7) {
+	background-color:#ff1259;
+	 
+}
+#geometrics-fonts.letter_p div:nth-child(2) {
+	border-radius:50%;
+	background-color:#3374ff;
+ 
+}
+#geometrics-fonts.letter_p div:nth-child(3) {
+	background-color:#00f57e;
+	  
+}
+#geometrics-fonts.letter_p div:nth-child(3)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_p div:nth-child(5) {
+	background-color:#ffd54a;
+	 
+}
+#geometrics-fonts.letter_p div:nth-child(5)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+/* Q */
+#geometrics-fonts.letter_q div:nth-child(1) {
+	background-color:#ffd54a;
+	 
+}
+#geometrics-fonts.letter_q div:nth-child(1)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+#geometrics-fonts.letter_q div:nth-child(2),
+#geometrics-fonts.letter_q div:nth-child(4),
+#geometrics-fonts.letter_q div:nth-child(6),
+#geometrics-fonts.letter_q div:nth-child(8) {
+	background-color:#ff1259;
+ 
+}
+#geometrics-fonts.letter_q div:nth-child(3) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_q div:nth-child(3)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_q div:nth-child(7) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_q div:nth-child(7)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_q div:nth-child(9) {
+	border-radius:50%;
+	background-color:#3374ff;
+	 
+}
+/* R */
+#geometrics-fonts.letter_r div:nth-child(1),
+#geometrics-fonts.letter_r div:nth-child(4),
+#geometrics-fonts.letter_r div:nth-child(5),
+#geometrics-fonts.letter_r div:nth-child(7) {
+	background-color:#ff1259;
+ 
+}
+#geometrics-fonts.letter_r div:nth-child(2) {
+	border-radius:50%;
+	background-color:#3374ff;
+	 
+}
+#geometrics-fonts.letter_r div:nth-child(3) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_r div:nth-child(3)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_r div:nth-child(6) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_r div:nth-child(6)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_r div:nth-child(9) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_r div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+/* S */
+#geometrics-fonts.letter_s div:nth-child(1) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_s div:nth-child(1)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+#geometrics-fonts.letter_s div:nth-child(2),
+#geometrics-fonts.letter_s div:nth-child(5),
+#geometrics-fonts.letter_s div:nth-child(8) {
+	background-color:#ff1259;
+ 
+}
+#geometrics-fonts.letter_s div:nth-child(3) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_s div:nth-child(3)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_s div:nth-child(4) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_s div:nth-child(4)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_s div:nth-child(7) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_s div:nth-child(7)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_s div:nth-child(9) {
+	border-radius:50%;
+	background-color:#3374ff;
+	  
+}
+
+/* T */
+#geometrics-fonts.letter_t div:nth-child(1) {
+	background-color:#00f57e;
+}
+#geometrics-fonts.letter_t div:nth-child(1)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+	 
+}
+#geometrics-fonts.letter_t div:nth-child(2),
+#geometrics-fonts.letter_t div:nth-child(5),
+#geometrics-fonts.letter_t div:nth-child(8) {
+	background-color:#ff1259;
+ 
+}
+#geometrics-fonts.letter_t div:nth-child(3) {
+	border-radius:50%;
+	background-color:#3374ff;
+ 
+}
+#geometrics-fonts.letter_t div:nth-child(9) {
+	background-color:#ffd54a;
+}
+#geometrics-fonts.letter_t div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+ 
+}
+/* U */
+#geometrics-fonts.letter_u div:nth-child(1),
+#geometrics-fonts.letter_u div:nth-child(4),
+#geometrics-fonts.letter_u div:nth-child(6),
+#geometrics-fonts.letter_u div:nth-child(8) {
+	background-color:#ff1259;
+ 
+}
+#geometrics-fonts.letter_u div:nth-child(3) {
+	border-radius:50%;
+	background-color:#3374ff;
+	 
+}
+
+#geometrics-fonts.letter_u div:nth-child(7) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_u div:nth-child(7)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_u div:nth-child(9) {
+	background-color:#ffd54a;
+	  
+}
+#geometrics-fonts.letter_u div:nth-child(9)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+/* V */
+#geometrics-fonts.letter_v div:nth-child(1) {
+	background-color:#ffd54a;
+	 
+}
+#geometrics-fonts.letter_v div:nth-child(1)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_v div:nth-child(3) {
+	background-color:#ffd54a;
+ 
+} 
+#geometrics-fonts.letter_v div:nth-child(3)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_v div:nth-child(8) {
+	background-color:#ff1259;
+	 
+}
+#geometrics-fonts.letter_v div:nth-child(4) {
+	background-color:#00f57e;
+	   
+}
+#geometrics-fonts.letter_v div:nth-child(4)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_v div:nth-child(6) {
+	background-color:#00f57e;
+	  
+}
+#geometrics-fonts.letter_v div:nth-child(6)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+/* W */
+#geometrics-fonts.letter_w div:nth-child(1) {
+	background-color:#ffd54a;
+	  
+}
+#geometrics-fonts.letter_w div:nth-child(1)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_w div:nth-child(3) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_w div:nth-child(3)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_w div:nth-child(5) {
+	background-color:#ff1259;
+	 
+}
+#geometrics-fonts.letter_w div:nth-child(4) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_w div:nth-child(4)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_w div:nth-child(6) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_w div:nth-child(6)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_w div:nth-child(7) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_w div:nth-child(7)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_w div:nth-child(9) {
+	background-color:#ffd54a;
+	 
+}
+#geometrics-fonts.letter_w div:nth-child(9)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+/* X */
+#geometrics-fonts.letter_x div:nth-child(1) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_x div:nth-child(1)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_x div:nth-child(3) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_x div:nth-child(3)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_x div:nth-child(5) {
+	background-color:#ff1259;
+ 
+}
+
+#geometrics-fonts.letter_x div:nth-child(7) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_x div:nth-child(7)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_x div:nth-child(9) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_x div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+/* Z */
+#geometrics-fonts.letter_y div:nth-child(1) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_y div:nth-child(1)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_y div:nth-child(3) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_y div:nth-child(3)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_y div:nth-child(5) {
+	border-radius:50%;
+	background-color:#3374ff;
+ 
+}
+#geometrics-fonts.letter_y div:nth-child(8) {
+	background-color:#ff1259;
+	 
+}
+/* Z */
+#geometrics-fonts.letter_z div:nth-child(1) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_z div:nth-child(1)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_z div:nth-child(3) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_z div:nth-child(3)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_z div:nth-child(7) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_z div:nth-child(7)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_z div:nth-child(5) {
+	border-radius:50%;
+	background-color:#3374ff;
+ 
+}
+#geometrics-fonts.letter_z div:nth-child(2),
+#geometrics-fonts.letter_z div:nth-child(8) {
+	background-color:#ff1259;
+ 
+}
+#geometrics-fonts.letter_z div:nth-child(9) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_z div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+/* 0 */
+#geometrics-fonts.letter_0 div:nth-child(1) {
+	overflow:visible;
+}
+#geometrics-fonts.letter_0 div:nth-child(1)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#3374ff;
+}
+/* 1 */
+#geometrics-fonts.letter_1 div:nth-child(1) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_1 div:nth-child(1)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_1 div:nth-child(2),
+#geometrics-fonts.letter_1 div:nth-child(5),
+#geometrics-fonts.letter_1 div:nth-child(8) {
+	background-color:#ff1259;
+	 
+}
+/* 2 */
+#geometrics-fonts.letter_2 div:nth-child(1) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_2 div:nth-child(1)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_2 div:nth-child(3) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_2 div:nth-child(3)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_2 div:nth-child(6) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_2 div:nth-child(6)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_2 div:nth-child(7) {
+	border-radius:50%;
+	background-color:#3374ff;
+	 
+}
+#geometrics-fonts.letter_2 div:nth-child(2),
+#geometrics-fonts.letter_2 div:nth-child(5),
+#geometrics-fonts.letter_2 div:nth-child(8) {
+	background-color:#ff1259;
+	 
+}
+#geometrics-fonts.letter_2 div:nth-child(9) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_2 div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+/* 3 */
+#geometrics-fonts.letter_3 div:nth-child(1) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_3 div:nth-child(1)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_3 div:nth-child(3) {
+	background-color:#00f57e;
+	  
+}
+#geometrics-fonts.letter_3 div:nth-child(3)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+#geometrics-fonts.letter_3 div:nth-child(5) {
+	border-radius:50%;
+	background-color:#3374ff;
+ 
+}
+#geometrics-fonts.letter_3 div:nth-child(2),
+#geometrics-fonts.letter_3 div:nth-child(8) {
+	background-color:#ff1259;
+ 
+}
+#geometrics-fonts.letter_3 div:nth-child(7) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_3 div:nth-child(7)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_3 div:nth-child(9) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_3 div:nth-child(9)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+/* 4 */
+#geometrics-fonts.letter_4 div:nth-child(2) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_4 div:nth-child(2)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_4 div:nth-child(4) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_4 div:nth-child(4)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+#geometrics-fonts.letter_4 div:nth-child(5) {
+	border-radius:50%;
+	background-color:#3374ff;
+ 
+}
+#geometrics-fonts.letter_4 div:nth-child(6),
+#geometrics-fonts.letter_4 div:nth-child(8) {
+	background-color:#ff1259;
+ 
+}
+/* 5 */
+#geometrics-fonts.letter_5 div:nth-child(3) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_5 div:nth-child(3)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_5 div:nth-child(5) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_5 div:nth-child(5)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_5 div:nth-child(2),
+#geometrics-fonts.letter_5 div:nth-child(6) {
+	background-color:#ff1259;
+	 
+}
+#geometrics-fonts.letter_5 div:nth-child(8) {
+	border-radius:50%;
+	background-color:#3374ff;
+ 
+}
+#geometrics-fonts.letter_5 div:nth-child(9) {
+	background-color:#ffd54a;
+	 
+}
+#geometrics-fonts.letter_5 div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+/* 6 */
+#geometrics-fonts.letter_6 div:nth-child(2) {
+	background-color:#ffd54a;
+	 
+}
+#geometrics-fonts.letter_6 div:nth-child(2)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_6 div:nth-child(5),
+#geometrics-fonts.letter_6 div:nth-child(8) {
+	background-color:#ff1259;
+	 
+}
+#geometrics-fonts.letter_6 div:nth-child(6) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_6 div:nth-child(6)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_6 div:nth-child(9) {
+	background-color:#ffd54a;
+	  
+}
+#geometrics-fonts.letter_6 div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+/* 7 */
+#geometrics-fonts.letter_7 div:nth-child(1) {
+	background-color:#00f57e;
+	 
+}
+#geometrics-fonts.letter_7 div:nth-child(1)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_7 div:nth-child(2) {
+	border-radius:50%;
+	background-color:#3374ff;
+	  
+}
+#geometrics-fonts.letter_7 div:nth-child(3),
+#geometrics-fonts.letter_7 div:nth-child(6),
+#geometrics-fonts.letter_7 div:nth-child(9) {
+	background-color:#ff1259;
+	 
+}
+/* 8 */
+#geometrics-fonts.letter_8 div:nth-child(1) {
+	background-color:#ffd54a;
+	   
+}
+#geometrics-fonts.letter_8 div:nth-child(1)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_8 div:nth-child(2) {
+	border-radius:50%;
+	background-color:#3374ff;
+	 
+}
+
+#geometrics-fonts.letter_8 div:nth-child(3) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_8 div:nth-child(3)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_8 div:nth-child(4) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_8 div:nth-child(4)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_8 div:nth-child(6) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_8 div:nth-child(6)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_8 div:nth-child(7) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_8 div:nth-child(7)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_8 div:nth-child(8) {
+	background-color:#ff1259;
+ 
+}
+#geometrics-fonts.letter_8 div:nth-child(9) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_8 div:nth-child(9)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+/* 9 */
+#geometrics-fonts.letter_9 div:nth-child(1) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_9 div:nth-child(1)::after {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+#geometrics-fonts.letter_9 div:nth-child(2),
+#geometrics-fonts.letter_9 div:nth-child(5) {
+	background-color:#ff1259;
+ 
+}
+#geometrics-fonts.letter_9 div:nth-child(4) {
+	background-color:#ffd54a;
+ 
+}
+#geometrics-fonts.letter_9 div:nth-child(4)::after {
+	position:absolute;
+	top:-415px;
+	left:-15px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
+#geometrics-fonts.letter_9 div:nth-child(8) {
+	background-color:#00f57e;
+ 
+}
+#geometrics-fonts.letter_9 div:nth-child(8)::after {
+	position:absolute;
+	top:-415px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+}
+
