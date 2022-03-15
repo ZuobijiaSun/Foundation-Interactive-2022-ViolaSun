@@ -1,12 +1,12 @@
 body{
-  transform-origin: 50% 0%;
+  transform-origin: 50% -10%;
   transform:scale(0.6);
   font-family: Manrope;
-  height: 720px;
+  height: 700px;
 }
 
 h3 {
-  font-size:50px;
+  font-size:55px;
   font-weight: 500;
   text-align:center;
   margin-bottom:0px;
@@ -14,7 +14,7 @@ h3 {
 
 p {
 	margin-top:10px;
-  margin-bottom:50px;
+  margin-bottom:30px;
   font-size:28px;
   font-weight: 500;
   text-align:center;
@@ -22,13 +22,21 @@ p {
 }
 
 
-.animation{
+/* Animation */
+.animation {
   animation-name: flo ;
-  animation-duration: 4s ;
+  animation-duration: 2.5s ;
   animation-iteration-count: infinite ;
  }
 
+@keyframes flo{
+  50%{
+    transform: translateY(30px);
+  }
+}
 
+
+/* Alphabet Buttons */
 .alphabet {
   width: 100%;
 	display: inline-flex;
@@ -116,7 +124,7 @@ p {
 }
 
 
-
+/* Letter Design */
 #geometrics-fonts {
 	margin:50px auto;
 	width:600px;
