@@ -1,6 +1,6 @@
 *, *::after, *::before {
   box-sizing: border-box;
-  font-family:manrope;
+  font-family:space mono;
 }
 
 body {
@@ -8,16 +8,22 @@ body {
   margin: 0;
   min-height: 100vh;
   display: flex;
-  background: linear-gradient(-45deg, #ff0080, #ff8000);
+  background: linear-gradient(115deg, #fb7a9b, #ffbef4, #a8d6ff, #3296ff); 
 }
 
+p{
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  margin: 10px;
+}
 
 .date-of-today marquee {
   position: absolute;
   color: rgba(255,255,255, .4);
-  font-size: 7em;
+  font-size: 8em;
   font-weight: bold;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
  .calendar {
