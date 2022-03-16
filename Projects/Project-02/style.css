@@ -1,7 +1,7 @@
 body{
   transform-origin: 50% -10%;
   transform:scale(0.6);
-  font-family: Manrope;
+  font-family: space mono;
   height: 700px;
 }
 
@@ -36,9 +36,145 @@ p {
 }
 
 
+
+#magenta{
+	background-color:#ff6b84;
+}
+
+#blue{
+	background-color:#75affa;
+}
+
+#green{
+	background-color:#59ebb0;
+}
+
+#yellow{
+	background-color:#ffd666;
+}
+
+
+#magenta:hover{
+	background-color:#ff1457;
+	transition:.6s;
+	transform:scale(1.2);
+}
+
+#blue:hover{
+	background-color:#1d61f5;
+	transition:.6s;
+}
+
+#green:hover{
+	background-color:#00d16c;
+	transition:.6s;
+}
+
+#yellow:hover{
+	background-color:#ffb300;
+	transition:.6s;
+}
+
+
+#magenta:focus{
+	background-color:#ff1457;
+	transform:scale(1.25);
+}
+
+#blue:focus {
+	background-color:#1d61f5;
+	transform:scale(1.25);
+}
+
+#green:focus{
+	background-color:#00d16c;
+	transform:scale(1.25);
+}
+
+#yellow:focus{
+	background-color:#ffb300;
+	transform:scale(1.25);
+}
+
+
+
+/* Responsive: 
+not sure why flexboxs don't work on media query,
+so I apply !important on them*/
+
+/* Mobile */
+@media (max-device-width: 415px) {
+  body {
+  transform:scale(1);
+	}
+
+  p {
+  font-size:40px; 
+ 	}
+
+  h3 {
+  font-size:85px;
+  margin-top: 120px; 
+  }
+
+	.alphabet {
+	flex-wrap: nowrap;
+	justify-content: center !important;
+	row-gap: 30px !important;
+	column-gap: 60px !important;
+	margin-top: 40px;
+	margin-right:70px;
+	margin-left:70px;
+	margin-bottom: 100px;
+	}
+
+	.alphabet div {
+	min-width:80px !important;
+	font-size:50px !important; 
+	border-radius:15px !important;
+	padding:20px !important;
+	}
+
+}
+
+/* Ipad */
+@media (max-device-width: 768px) {
+  body {
+  transform:scale(1);
+	}
+
+  p {
+  font-size:30px; 
+ 	}
+
+  h3 {
+  font-size:85px;
+  margin-top: 120px; 
+  }
+
+	.alphabet {
+	flex-wrap: nowrap;
+	justify-content: center !important;
+	gap: 30px !important;
+	margin-top: 40px;
+	margin-right:70px;
+	margin-left:70px;
+	margin-bottom: 100px;
+	}
+
+	.alphabet div {
+	min-width:60px !important;
+	font-size:40px !important; 
+	border-radius:15px !important;
+	padding:20px !important;
+	}
+
+}
+
+ 
+
 /* Alphabet Buttons */
 .alphabet {
-  width: 100%;
 	display: inline-flex;
   flex-wrap:wrap;
   justify-content: center;
@@ -61,67 +197,6 @@ p {
 
 }
 
-
-#magenta{
-	background-color:#ff6b84;
-}
-
-#blue{
-	background-color:#75affa;
-}
-
-#green{
-	background-color:#59ebb0;
-}
-
-#yellow{
-	background-color:#ffd666;
-}
-
-
-#magenta:hover{
-	background-color:#ff1457;
-	color: #fff;
-	transition:.6s;
-}
-
-#blue:hover{
-	background-color:#1d61f5;
-	color: #fff;
-	transition:.6s;
-}
-
-#green:hover{
-	background-color:#00d16c;
-	color: #fff;
-	transition:.6s;
-}
-
-#yellow:hover{
-	background-color:#ffb300;
-	color: #fff;
-}
-
-
-#magenta:focus{
-	background-color:#ff1457;
-	color: #fff;
-}
-
-#blue:focus {
-	background-color:#1d61f5;
-	color: #fff;
-}
-
-#green:focus{
-	background-color:#00d16c;
-	color: #fff;
-}
-
-#yellow:focus{
-	background-color:#ffb300;
-	color: #fff;
-}
 
 
 /* Letter Design */
