@@ -24,7 +24,7 @@ p {
 
 /* Animation */
 .animation {
-  animation-name: flo ;
+  animation-name: flo;
   animation-duration: 2.5s ;
   animation-iteration-count: infinite ;
  }
@@ -36,66 +36,54 @@ p {
 }
 
 
-
+/* Button Interactions */
 #magenta{
 	background-color:#ff6b84;
 }
-
 #blue{
 	background-color:#75affa;
 }
-
 #green{
 	background-color:#59ebb0;
 }
-
 #yellow{
 	background-color:#ffd666;
 }
-
 
 #magenta:hover{
 	background-color:#ff1457;
 	transition:.6s;
 	transform:scale(1.2);
 }
-
 #blue:hover{
 	background-color:#1d61f5;
 	transition:.6s;
 }
-
 #green:hover{
 	background-color:#00d16c;
 	transition:.6s;
 }
-
 #yellow:hover{
 	background-color:#ffb300;
 	transition:.6s;
 }
 
-
 #magenta:focus{
 	background-color:#ff1457;
 	transform:scale(1.25);
 }
-
 #blue:focus {
 	background-color:#1d61f5;
 	transform:scale(1.25);
 }
-
 #green:focus{
 	background-color:#00d16c;
 	transform:scale(1.25);
 }
-
 #yellow:focus{
 	background-color:#ffb300;
 	transform:scale(1.25);
 }
-
 
 
 /* Responsive: 
@@ -142,11 +130,9 @@ so I apply !important on them*/
   body {
   transform:scale(1);
 	}
-
   p {
   font-size:30px; 
  	}
-
   h3 {
   font-size:85px;
   margin-top: 120px; 
@@ -171,7 +157,6 @@ so I apply !important on them*/
 
 }
 
- 
 
 /* Alphabet Buttons */
 .alphabet {
@@ -198,7 +183,6 @@ so I apply !important on them*/
 }
 
 
-
 /* Letter Design */
 #geometrics-fonts {
 	margin:50px auto;
@@ -217,9 +201,28 @@ so I apply !important on them*/
 
 
 /* A */
-#geometrics-fonts.letter_a div:nth-child(1) {
+#geometrics-fonts.letter_a div:nth-child(1),
+#geometrics-fonts.letter_a div:nth-child(3) {
 	background-color:#00f57e; /* green */
 }
+
+#geometrics-fonts.letter_a div:nth-child(2),
+#geometrics-fonts.letter_a div:nth-child(7),
+#geometrics-fonts.letter_a div:nth-child(9) { 
+	background-color:#ff1259; /* magenta */
+ 
+}
+#geometrics-fonts.letter_a div:nth-child(5) {
+	border-radius:50%;
+	background-color:#3374ff; /* blue */
+}
+
+#geometrics-fonts.letter_a div:nth-child(4),
+#geometrics-fonts.letter_a div:nth-child(6) {
+	background-color:#ffd54a; /* yellow */
+}
+
+/* Hidden Areas */
 #geometrics-fonts.letter_a div:nth-child(1)::after {
 	position:absolute;
 	top:-415px;
@@ -230,23 +233,8 @@ so I apply !important on them*/
 	height:630px;
 	content:'';
 	background-color:#FFF;
- 
 }
 
-#geometrics-fonts.letter_a div:nth-child(2),
-#geometrics-fonts.letter_a div:nth-child(7) {
-	background-color:#ff1259; /* magenta */
- 
-}
-#geometrics-fonts.letter_a div:nth-child(5) {
-	border-radius:50%;
-	background-color:#3374ff; /* blue */
- 
-}
-#geometrics-fonts.letter_a div:nth-child(3) {
-	background-color:#00f57e;
- 
-}
 #geometrics-fonts.letter_a div:nth-child(3)::after {
 	position:absolute;
 	top:-415px;
@@ -258,25 +246,7 @@ so I apply !important on them*/
 	content:'';
 	background-color:#FFF;
 }
-#geometrics-fonts.letter_a div:nth-child(6) {
-	background-color:#ffd54a; /* yellow */
- 
-}
-#geometrics-fonts.letter_a div:nth-child(6)::after {
-	position:absolute;
-	top:-15px;
-	left:-415px;
-	border-radius:50%;
-	display:block;
-	width:630px;
-	height:630px;
-	content:'';
-	background-color:#FFF;
-}
-#geometrics-fonts.letter_a div:nth-child(4) {
-	background-color:#ffd54a;
- 
-}
+
 #geometrics-fonts.letter_a div:nth-child(4)::after {
 	position:absolute;
 	top:-15px;
@@ -288,9 +258,19 @@ so I apply !important on them*/
 	content:'';
 	background-color:#FFF;
 }
-#geometrics-fonts.letter_a div:nth-child(9) {
-	background-color:#ff1259;
-}
+
+#geometrics-fonts.letter_a div:nth-child(6)::after {
+	position:absolute;
+	top:-15px;
+	left:-415px;
+	border-radius:50%;
+	display:block;
+	width:630px;
+	height:630px;
+	content:'';
+	background-color:#FFF;
+} 
+
 
 /* B */
 #geometrics-fonts.letter_b {
