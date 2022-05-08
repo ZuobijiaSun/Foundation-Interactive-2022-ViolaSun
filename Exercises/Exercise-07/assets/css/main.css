@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(220,186,225);
+	background: linear-gradient(90deg, rgba(220,186,225,1) 0%, rgba(210,152,206,1) 22%, rgba(147,164,228,1) 48%, rgba(158,205,247,1) 73.09%, rgba(229,239,245,1) 100%);
+	font-family: Space Mono;
+}
+
+p{
+	color: #000;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.canvas {
+	width: 800px;
+	height: 500px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+	border: solid black 5px;
+}
+
+/* Circles */
+
+.circle-1 {
+	position: absolute;
+  display: block;
+  margin: auto;
+  width: 90px;
+  height: 90px;
+  margin-left: 30%;
+  margin-top: 10%;
+  background: white;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(30px 30px, circle, white, #4d4d4d);
+}
+
+.circle-2 {
+	position: absolute;
+  display: block;
+  margin: auto;
+  width: 115px;
+  height: 115px;
+  margin-left: 28%;
+  margin-top: 17%;
+  background: white;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(30px 30px, circle, white, #4d4d4d);
+}
+
+
+.circle-3 {
+	position: absolute;
+  display: block;
+  margin: auto;
+  width: 120px;
+  height: 120px;
+  margin-left: 18%;
+  margin-top: 20%;
+  background: white;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(30px 30px, circle, white, #4d4d4d);
+}
+
+.circle-4 {
+	position: absolute;
+  display: block;
+  margin: auto;
+  width: 90px;
+  height: 90px;
+  margin-left: 6%;
+  margin-top: 10%;
+  background: white;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(30px 30px, circle, white, #4d4d4d);
+}
+
+.circle-5 {
+	position: absolute;
+  display: block;
+  margin: auto;
+  width: 110px;
+  height: 110px;
+  margin-left: 12%;
+  margin-top: 8%;
+  background: white;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(30px 30px, circle, white, #4d4d4d);
+}
+
+.circle-6 {
+	position: absolute;
+  display: block;
+  margin: auto;
+  width: 110px;
+  height: 110px;
+  margin-left: 10%;
+  margin-top: 17.5%;
+  background: white;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(30px 30px, circle, white, #4d4d4d);
+}
+
+.circle-7 {
+	position: absolute;
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  margin-left: 20%;
+  margin-top: 10%;
+  background: white;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(30px 30px, circle, white, #4d4d4d);
+}
+
+/* Cat */
+
+.cat {
+  overflow: visible;
+  margin-left: 150px;
+  margin-top: 180px;
+  width: 450px;
+  position: relative;
+  animation: catmove 7s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes catmove {
+  0%   {margin-left:150px;}
+  50%  {margin-left: 500px;}
+  100% {margin-left:150px;}
+}
+
+.eyes circle {
+  fill: #fff;
+}
+
+.frontlegs,
+.backlegs {
+  opacity: 1;
+}

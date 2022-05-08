@@ -1,0 +1,140 @@
+body {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  font-family: Space Mono;
+}
+
+[draggable] {
+  cursor: move;
+}
+
+p{
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  margin: 10px;
+}
+
+h1 {
+  position: absolute;
+  color: rgba(255, 255, 255, .7);
+  font-size: 20px;
+  top:10%;
+  left: 10%;
+
+}
+
+#pumpkin {
+  position: absolute; 
+  left:35%;
+  top: 30%;
+  z-index: 5;
+}
+
+#eyes1 {
+  position: absolute; 
+  left: 10%; 
+  top: 259px; 
+  z-index: 5;
+}
+
+#eyes2 {
+  position: absolute; 
+  left:  10%; 
+  top: 525px;
+  z-index: 5;
+}
+
+#eyes3 {
+  position: absolute; 
+  left:  10%; 
+  top: 169px; 
+  z-index: 5;
+}
+
+#eyes4 {
+  position: absolute; 
+  left:  10%; 
+  top: 416px; 
+  z-index: 5;
+}
+
+#eyes5 {
+  position: absolute; 
+  left:  10%; 
+  top: 343px; 
+  z-index: 5;
+}
+
+#mouth1 {
+  position: absolute; 
+  right: 10%;
+  top: 537px; 
+  z-index: 5;
+}
+
+#mouth2 {
+  position: absolute; 
+  right: 10%;
+  top: 429px; 
+  z-index: 5;
+}
+
+#mouth3 {
+  position: absolute; 
+  right: 10%;
+  top: 233px; 
+  z-index: 5;
+}
+
+#mouth4 {
+  position: absolute; 
+  right: 10%; 
+  top: 324px; 
+  z-index: 5;
+}
+
+#mouth5 {
+  position: absolute; 
+  right: 10%;
+  top: 158px; 
+  z-index: 5;
+}
+
+#nose1 {
+  position: absolute; 
+  left: 30%; 
+  top: 85%; 
+  z-index: 5;
+}
+
+#nose2 {
+  position: absolute; 
+  left: 38%;
+  top: 85%; 
+  z-index: 5;
+}
+
+#nose3 {
+  position: absolute; 
+  left: 46%; 
+  top: 85%;
+  z-index: 5;
+}
+
+#nose4 {
+  position: absolute; 
+  left: 54%;
+  top: 85%;
+  z-index: 5;
+}
+
+#nose5 {
+  position: absolute; 
+  left:62%; 
+  top: 85%;
+  z-index: 5;
+}
+
+
