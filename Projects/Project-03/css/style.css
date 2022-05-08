@@ -296,8 +296,8 @@ svg text {
 /* HOME */
 
 .intro {
-  position: absolute;
-  width: 70%; 
+  position: fixed;
+    width: 70%; 
   top: 20px;
   left: 24px;
 }
@@ -316,6 +316,7 @@ svg text {
   font-size: 30px;
   font-family: 'PPNeueMachina-Light';
   font-weight: lighter;
+  margin-top: 12%;
 }
 
 
