@@ -319,6 +319,15 @@ svg text {
   margin-top: 12%;
 }
 
+.intro h3 {
+  position: fixed;
+  color: white;
+  font-size: 25px;
+  font-family: 'PPNeueMachina-Light';
+  font-weight: lighter;
+  margin-top: 11%;
+}
+
 
 .contents {
   width: 100%;
