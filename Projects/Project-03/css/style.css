@@ -302,14 +302,9 @@ svg text {
   left: 24px;
 }
 
-.work h1{
-  font-size: 70px;
-  font-family: 'PPNeueMachina-Regular';
-  position: absolute;
-  color: white;
-}
 
 .intro h1 {
+  position: fixed;
   color: white;
   font-size: 70px;
   font-family: 'PPNeueMachina-UltraBold';
