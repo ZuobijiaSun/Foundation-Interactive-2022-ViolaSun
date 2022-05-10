@@ -554,8 +554,6 @@ svg text {
 */
 
 
-
-
 .pin-wrap img {
   height: 40vh;
   width: auto;
@@ -569,6 +567,11 @@ svg text {
   -10px -10px 50px #32fb62;
   animation: animateGlow 4s ease infinite;
 }
+
+.pin-wrap img:hover {
+  bo
+}
+
 
 @keyframes animateGlow  {
   0% {
@@ -597,12 +600,6 @@ svg text {
     10px 10px 50px #317af7,
     -10px -10px 50px #32fb62;
   }
-}
-
-.pin-wrap img:hover {
-  transform: scale(1.06);
-  transition: transform 400ms ease-in-out;
-
 }
 
 #sectionPin {
